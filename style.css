@@ -1,0 +1,64 @@
+:root {
+  --background: #bfdbfe;
+  --text: #2563eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+header {
+  margin: 1rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+input,
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 11rem;
+  border: 2px solid var(--text);
+  border-radius: 0.2rem;
+  outline: none;
+}
+
+.button-check {
+  background-color: var(--text);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.output {
+  display: none;
+  width: 300px;
+  margin: auto;
+  padding: 0.5rem;
+  border: 2px solid var(--text);
+  border-radius: 0.2rem;
+}
+
+.nav {
+  padding: 2rem;
+  background-color: var(--text);
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+}
+
+main {
+  border: 1px solid var(--text);
+  padding: 40px;
+  margin: 5rem;
+  text-align: center;
+}
