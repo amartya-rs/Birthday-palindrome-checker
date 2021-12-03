@@ -1,6 +1,6 @@
 :root {
-  --background: #bfdbfe;
-  --text: #2563eb;
+  --background: black ;
+  --text: greenyellow;
 }
 
 body {
@@ -14,7 +14,7 @@ header {
   margin: 1rem;
 }
 
-h2 {
+h1 {
   text-align: center;
   margin: 1rem 0;
 }
@@ -38,22 +38,18 @@ button {
 }
 
 .output {
-  display: none;
-  width: 300px;
-  margin: auto;
-  padding: 0.5rem;
-  border: 2px solid var(--text);
-  border-radius: 0.2rem;
+  color: var(--text);
+  text-shadow: 1px 1px 3px var(--background);
 }
 
 .nav {
   padding: 2rem;
-  background-color: var(--text);
+  background-color: var(--background);
   color: white;
   text-align: center;
   font-size: xx-large;
   font-weight: bolder;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid var(--text);
 }
 
 main {
