@@ -37,6 +37,11 @@ button {
   margin-bottom: 2rem;
 }
 
+.check-button:hover {
+  box-shadow: 5px 5px 7px grey;
+  cursor: pointer;
+}
+
 .output {
   color: var(--text);
   text-shadow: 1px 1px 3px var(--background);
